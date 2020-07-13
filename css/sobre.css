@@ -1,0 +1,71 @@
+/*---------------SOBRE EQUIPE--------------*/
+
+section.sobre-equipe{
+	padding: 30px 0;
+	background: rgb(225,225,225);
+}
+
+section.sobre-equipe > .container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section.sobre-equipe div > div > div.line-text > div{
+	width: 60px;
+}
+
+div.equipe-container{
+	width: 50%;
+}
+
+div.sobre-container{
+	width: 50%;
+}
+
+div.sobre-container p{
+	color: black;
+	font-size: 15px;
+	margin-top: 10px;
+}
+
+section.sobre-equipe > div > div.sobre-container > div.line-text > div{
+	width: 54px;
+}
+
+/*-----------------------*/
+
+div.equipe-container > div.avatar-box{
+	margin-top: 15px;
+	position: relative;
+}
+
+div.avatar-box > div.img-avatar{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-size: 100% 100%;
+	background-color: gray;
+}
+
+div.avatar-box > div.descricao-avatar{
+	position: absolute;
+	top: 12px;
+	padding: 0 10px;
+	width: calc(100% - 70px);
+	display: inline-block;
+}
+
+div.avatar-box > div.descricao-avatar h3{
+	color: rgb(30,30,30);
+	font-weight: normal;
+	font-style: italic;
+}
+
+div.avatar-box > div.descricao-avatar p{
+	color: rgb(30,30,30);
+	font-weight: lighter;
+}
+
+
+/*---------------SOBRE EQUIPE - THE END-------------*/

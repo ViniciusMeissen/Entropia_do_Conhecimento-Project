@@ -1,0 +1,122 @@
+/*------------Loja---------------*/
+section.loja{
+	background-image: url(../imagens/bg/loja.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 20px;
+	height: 500px;
+}
+
+section.loja > div.overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 500px;
+	width: 100%;
+}
+
+section.loja > div > div > h2{
+	font-size: 50px;
+	text-align: center;
+	font-weight: normal;
+}
+
+h2.title-loja{
+	border-bottom: 3px solid red;
+}
+
+section.loja > div > div.box-loja{
+	padding: 140px 0;
+	text-align: center;
+}
+
+div.box-loja > p{
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 15px;
+	letter-spacing: 5px; 
+}
+
+/* ------------------ */
+
+section.produtos{
+	margin-top: 40px;
+}
+
+section.produtos > h1.title{
+	font-weight: normal;
+	font-size: 35px;
+	text-align: center;
+	border-bottom: 2px dotted red;
+}
+
+section.produtos div.background-produto{
+	margin: 20px 0;
+	padding: 60px 0;
+	background-color: rgba(225,225,225, 0.1);
+	border: 3px solid var(--color-3);
+	min-height: 500px;
+	display: flex;
+}
+
+section.produtos div.box-produtos{
+	align-items: center;
+	padding-left: 120px;
+}
+
+div.produto{
+	background-color: var(--color-5);
+	border: 2px solid var(--color-5);
+	border-radius: 15px;
+	position: relative;
+	float: left;
+	width: 25%;
+	min-height: 500px;
+	margin: 0 30px;
+}
+
+div.produto img{
+	background-size: cover;
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	height: 250px;
+}
+
+div.produto > div.detalhes{
+	margin: 15px 0;
+}
+
+div.produto > div.detalhes > h2{
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+}
+
+div.produto > div.detalhes > p{
+	margin-top: 15px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 25px;
+}
+
+div.produto button{
+	cursor: pointer;
+
+	width: 100px;
+	height: 35px;
+	
+	position: relative;
+	left: 175px;
+	bottom: 5px;
+
+	background-color: var(--color-4);
+	border: 2px solid var(--color-3);
+
+	outline: 0;
+}
+
+div.produto button a{
+	letter-spacing: 2px;
+	font-size: 20px;
+
+	color: var(--color-6);
+	text-decoration: none;
+}

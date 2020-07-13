@@ -1,0 +1,449 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+	<title>Entropia do Conhecimento</title>
+	<!-- ----------------------------------------- -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="keywords" content=" Entropia do Conhecimento, Entropia, Conhecimento, Biologia, Slides, Videos">
+	<meta name="description" content="A Entropia do conhecimento tem como objetivo trazer conteúdos diversos e totalmente aleatórios porem que agregue valor aos nossos seguidores.">
+	<meta name="author" content="Vinicius Meissen">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166297236-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-166297236-1');
+	</script>
+
+	<!-- --------------------------------------------- -->
+	<link rel="icon" href="imagens/favicon.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/classesAuxiliares.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/homeBar_e_footer.css">
+	<link rel="stylesheet" type="text/css" href="css/video_e_slide.css">
+	
+
+</head>
+
+<body>
+	<!-- -----------------------HOME BAR-------------------- -->
+	<header class="homebar">
+		<div class="container">
+			<div class="logo"><h2><a href="index.html">Entropia do Conhecimento</a></h2></div>
+
+			<nav class="menu-desktop">
+				<ul class="barra_de_inicio">
+
+					<li class="selected item1">
+						<a href="index.html">Home</a>
+					</li>
+
+					<li class="item1.1">
+						<a href="login.html">Fórum</a>
+					</li>
+
+					<li class="item2">
+						<a href="contato.html">Contato</a>
+					</li>
+
+					<!-- <li class="item2_1">
+						<a href="sobre.html">Sobre</a>
+					</li> -->
+
+					<li class="list item3">
+						<div></div>
+						<h4 class="list_selected">Slides <i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+					</li>
+
+					<li class="list item4">
+						<div></div>
+						<h4 class="list_selected">Videos <i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-chevron-down" aria-hidden="true"></i></h4>
+					</li>
+					
+				</ul>
+			</nav>
+
+			<nav class="menu-list-materias slides_view">
+				<ul class="menu__list">
+					<li class="item1">
+						<a href="page-slides/matematica.html">Matemática</a>
+					</li>
+					<li class="item2">
+						<a href="page-slides/fisica.html">Física</a>
+					</li>
+					<li class="item3">
+						<a href="page-slides/biologia.html">Biologia</a>
+					</li>
+					<li class="item4">
+						<a href="page-slides/quimica.html">Química</a>
+					</li>
+				</ul>
+			</nav>
+
+			<nav class="menu-list-materias videos_view">
+				<ul class="menu__list">
+					<li class="item1">
+						<a href="page-videos/matematica.html">Matemática</a>
+					</li>
+					<li class="item2">
+						<a href="page-videos/fisica.html">Física</a>
+					</li>
+					<li class="item3">
+						<a href="page-videos/biologia.html">Biologia</a>
+					</li>
+					<li class="item4">
+						<a href="page-videos/quimica.html">Química</a>
+					</li>
+				</ul>
+			</nav>
+
+			<nav class="menu-mobile">
+				<h2><i class="fa fa-bars"></i></h2>
+				<ul class="menu__list">
+					<li class="item1 selected u">
+						<a href="index.html">Home</a>
+					</li>
+
+					<li class="item1.1">
+						<a href="login.html">Fórum</a>
+					</li>
+
+					<li class="item2 u">
+						<a href="contato.html">Contato</a>
+					</li>
+
+					<li class="list__slides list_show">
+						<li class="list item3">
+							<div></div>
+							<h4>Slides<br><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-chevron-down open" aria-hidden="true"></i></h4>
+						</li>
+						<!-- ------------------ -->
+						<li class="item1_1 list_slide_show u">
+							<a href="page-slides/matematica.html">Matemática</a>
+						</li>
+						<li class="item2_1 list_slide_show u">
+							<a href="page-slides/fisica.html">Física</a>
+						</li>
+						<li class="item3_1 list_slide_show u">
+							<a href="page-slides/biologia.html">Biologia</a>
+						</li>
+						<li class="item4_1 list_slide_show u">
+							<a href="page-slides/quimica.html">Química</a>
+						</li>
+						<!-- ------------------ -->
+					</li>
+
+					<li class="list__videos list_show">
+						<li class="list item4">
+							<div></div>
+							<h4>Videos<br><i class="fa fa-times" aria-hidden="true"></i><i class="fa fa-chevron-down open" aria-hidden="true"></i></h4>
+						</li>
+						<!-- ------------------- -->
+						<li class="item1_2 list_video_show u">
+							<a href="page-videos/matematica.html">Matemática</a>
+						</li>
+						<li class="item2_2 list_video_show u">
+							<a href="page-videos/fisica.html">Física</a>
+						</li>
+						<li class="item3_2 list_video_show u">
+							<a href="page-videos/biologia.html">Biologia</a>
+						</li>
+						<li class="item4_2 list_video_show u">
+							<a href="page-videos/quimica.html">Química</a>
+						</li>
+						<!-- ------------------- -->
+					</li>
+
+				</ul>
+			</nav>
+
+			<div class="clear"></div>
+		</div>
+	</header>
+	
+	<!-- ---------------------HOME BAR - THE END------------------ -->
+
+	<!------------------ MAIN BG ---------------->
+	<section class="main-bg">
+		<div class="overlay"></div>
+		<div class="container">
+			<h2 id="chamada" name="Entropia do Conhecimento">Entropia do Conhecimento?</h2>
+			<p id="chamada">A Entropia do conhecimento tem como objetivo trazer conteúdos diversos e totalmente aleatórios porem que agregue valor aos nossos seguidores.</p>
+		</div>
+	</section>
+	<!--------------- MAIN BG - THE END ------------->
+
+	<!-- --------CONTEUDO--------- -->
+	<section class="conteudo">
+		<div class="container">
+			<div class="line-text">
+				<h2>Conteúdos</h2>
+			</div>
+
+			<div class="icones-conteudo">
+				<div class="box-icone-single">
+
+					<h2>Física <i class="fa fa-book" aria-hidden="true"></i></h2>
+					<p>Ciência que investiga as leis do universo no que diz respeito à matéria e à energia, que são seus constituintes, e suas interações.</p>
+
+				</div><!--Box icon single-->
+
+				<div class="box-icone-single">
+					
+					<h2>Matemática <i class="fa fa-book" aria-hidden="true"></i></h2>
+					<p>Ciência que estuda, por método dedutivo, objetos abstratos (números, figuras, funções) e as relações existentes entre eles.</p>
+				
+				</div><!--Box icon single-->
+
+				<div class="box-icone-single">
+
+					<h2>Biologia <i class="fa fa-book" aria-hidden="true"></i></h2>
+					<p>Ciência que estuda a vida e os organismos vivos, sua estrutura, crescimento, funcionamento, reprodução, origem, evolução, distribuição, bem como suas relações com o ambiente e entre si; biociência, ciências biológicas, etc...</p>
+				
+				</div><!--Box icon single-->
+
+				<div class="box-icone-single">
+
+					<h2>Química <i class="fa fa-book" aria-hidden="true"></i></h2>
+					<p>Química é a ciência que estuda a composição, estrutura, propriedades da matéria, as mudanças sofridas por ela durante as reações químicas e a sua relação com a energia.</p>
+				
+				</div><!--Box icon single-->
+
+				<div class="clear"></div>
+			</div><!--Icones diferenciais-->
+
+		</div>
+	</section>
+	<!-- --------CONTEUDO - THE END-------- -->
+
+	<!-- -------------INSCRIÇÃO------------- -->
+	<section class="inscricao">
+		<div class="container">
+			<div class="center">
+				<a target="_blank" href="https://www.youtube.com/channel/UCsmgBEYixj-W3DHOswP2Xbg"><h2 class="inscricao-texto"><i class="fa fa-bell" aria-hidden="true"></i>Inscreva-se no nosso canal<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				</h2>
+				</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</section>
+	<!-- ---------INSCRIÇÃO - THE END------- -->
+
+	<!----------- VIDEOS RECENTES ------------->
+	<section class="videos_recentes">
+		<div class="container">
+			<div class="line-text">
+				<h2>Videos Recentes</h2>
+			</div>
+
+			<div class="box-videos">
+				<!-- <h2>Nenhum video recente!</h2> -->
+				<div class="card-video">
+					<video width="400" controls>
+						  <source src="videos/matematica/matematica_01.mkv" type="video/mp4">
+						  Your browser does not support HTML video.
+					</video>
+					<h3 class="videocenter">Matemática 1</h3>
+					<p class="videocenter">Razões e proporções II</p>
+
+				</div>
+
+				<div class="card-video">
+					<video width="400" controls>
+						  <source src="videos/geografia/geografia_01.mp4" type="video/mp4">
+						  Your browser does not support HTML video.
+					</video>
+					<h3 class="videocenter">Geografia de Rondônia</h3>
+					<p class="videocenter"> Governadores do estado de Rondônia</p>
+				</div>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+	</section>
+
+	<!----------- VIDEOS RECENTES - THE END------------>
+
+	<div class="barra"></div>
+
+	<!-- ---------SLIDES RECENTES------------- -->
+	<section class="slides_recentes">
+		<div class="container">
+			<div class="line-text">
+				<h2>Slides Recentes</h2>
+			</div>
+
+			<div class="box-slides">
+
+				<div class="card-slides">
+
+					<a target="_blank" href="https://www.dropbox.com/s/5a0gq3vgvld2rhx/Física%20I%20-%20Aula%204.pptx?dl=0"><img alt="Dilatação térmica dos sólidos" src="imagens/slides/fisica/fisica_01/aula_04/img0.png"></a>
+					<h3>Física 1</h3>
+					<p class="slidecenter" title="Dilatação térmica dos sólidos">Dilatação térmica dos sólidos II - Aprofundamentos</p>
+				
+				</div>
+
+				<div class="card-slides">
+
+					<a target="_blank" href="https://www.dropbox.com/s/54ewogdojltdaet/Sociologia%20-%20Aula%204%20-%20Sociedades%20e%20modos%20de%20produ%C3%A7%C3%A3o%20I.pptx?dl=0"><img src="imagens/slides/sociologia/aula_04/img.png"></a> 
+					<h3>Sociologia</h3>
+					<p class="slidecenter">Sociedades e modos de produção I</p>
+				
+				</div>
+
+				<div class="card-slides">
+
+					<a target="_blank" href="https://www.dropbox.com/s/fpcfj8uhq9whs80/Aula%204.pptx?dl=0"><img src="imagens/slides/quimica/quimica_01/aula_04/img.png"></a>
+					<h3>Química</h3>
+					<p class="slidecenter">Número de oxidação - Nox</p>
+
+				</div>
+
+				<div class="card-slides">
+
+					<a target="_blank" href="https://www.dropbox.com/s/rdpwin27agcldml/Matematica%20IV%20-%20Aula%204%20-%20An%C3%A1lise%20de%20dados%20IV.pptx?dl=0"><img src="imagens/slides/matematica/matematica_04/aula_04/img.png"></a>
+					<h3>MATEMÁTICA</h3>
+					<p class="slidecenter">Análise de dados IV</p>
+
+				</div>
+
+				<div class="card-slides">
+
+					<a target="_blank" href="https://www.dropbox.com/s/qb75a4gxfbrxc1q/MISTURA%20DE%20SOLU%C3%87%C3%95ES%20SEM%20REA%C3%87%C3%95ES%20QU%C3%8DMICAS.pptx?dl=0"><img src="imagens/slides/quimica/quimica_01/img.png"></a>
+					<h3>Química</h3>
+					<p class="slidecenter">Mistura de soluções sem reações químicas</p>
+
+				</div>
+
+				<div class="card-slides">
+
+					<a target="_blank" href="https://www.dropbox.com/s/he8tqcb3qga4xdv/Folhas%20e%20flores.pptx?dl=0"><img src="imagens/slides/biologia/folhas_e_flores/img1.png"></a>
+					<h3>Biologia</h3>
+					<p class="slidecenter">Folhas e flores</p>
+
+				</div>
+
+				<div class="card-slides blockslid">
+
+					<a target="_blank" href="https://www.dropbox.com/s/v3n5xue1w59wt2q/pH%20e%20pOH.pptx?dl=0"><img src="imagens/slides/quimica/phepoh/banner.png"></a>
+					<h3>Química</h3>
+					<p class="slidecenter">PH & POH</p>
+
+				</div>
+
+				<div class="card-slides blockslid">
+
+					<a target="_blank" href="https://www.dropbox.com/s/s03gz569ik5on7c/Horm%C3%B4nios%20vegetais.pptx?dl=0"><img src="imagens/slides/biologia/hormonios_vegetais/img.png"></a>
+					<h3>Biologia</h3>
+					<p class="slidecenter">Hormônios Vegetais</p>
+
+				</div>
+
+				<div class="card-slides blockslid">
+
+					<a target="_blank" href="https://www.dropbox.com/s/qiaambtsfzvh7cv/transcricao.pptx?dl=0"><img src="imagens/slides/biologia/transcricao_dna/banner.png"></a>
+					<h3>Biologia</h3>
+					<p class="slidecenter">Transcrção do DNA</p>
+
+				</div>
+
+				<div class="card-slides blockslid">
+
+					<a target="_blank" href="https://www.dropbox.com/s/iail2jkwj9ujbv5/Condu%C3%A7%C3%A3o%20de%20seiva.pptx?dl=0"><img src="imagens/slides/biologia/conducao_seiva/banner.png"></a>
+					<h3>Biologia</h3>
+					<p class="slidecenter">Condução de seiva</p>
+
+				</div>
+
+				<div class="card-slides blockslid">
+
+					<a target="_blank" href="https://www.dropbox.com/s/7qjcxvkpgnp0urn/bio%20cel-7.pptx?dl=0"><img src="imagens/slides/biologia/apoptose_cancer/banner.png"></a>
+					<h3>Biologia</h3>
+					<p class="slidecenter">Apoptose & câncer</p>
+
+				</div>
+
+				<div class="card-slides blockslid">
+
+					<a target="_blank" href="https://www.dropbox.com/s/atvmt0753qcyu2c/Evolu%C3%A7%C3%A3o.pptx?dl=0"><img src="imagens/slides/biologia/evolucao/banner.png"></a>
+					<h3>Biologia</h3>
+					<p class="slidecenter">Evolução</p>
+
+				</div>
+
+			</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="viewslide"><h4 class="vermais">VER MAIS</h4><h4 class="vermenos">VER MENOS</h4></div>
+
+	</section>
+
+	<!-- ---------SLIDES RECENTES - THE END------------ -->
+
+		<div class="barra"></div>
+
+	<!-- --------------AVISOS---------------- -->
+	<div class="container">
+		<section class="avisos">
+
+				<div class="line-text">
+					<h2 class="title-avisos"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>AVISOS<i class="fa fa-exclamation-triangle" aria-hidden="true"></i></h2>
+				</div>
+				
+				<div class="box-avisos">
+					<div class="overlay-avisos"></div>
+			    </div>
+
+				<div class="clear"></div>
+
+		</section>
+	</div>
+
+	<!-- --------------AVISOS - THE END--------------- -->
+
+	<!-- -----------FOOTER-------------- -->
+ 	<section class="footer">
+
+		<footer class="footer1">
+			<div class="container">
+				<div class="w100">
+					<h2>Conecte-se conosco</h2>
+
+					<div class="group-icons">
+						<a href="https://www.youtube.com/channel/UCsmgBEYixj-W3DHOswP2Xbg" target="_blank"><i class="fa fa-youtube-play size_icons" aria-hidden="true"></i></a>					
+						<a href="https://t.me/joinchat/OURHOxjW1D6hdwkvV3dt1g" target="_blank"><i class="fa fa-telegram size_icons" aria-hidden="true"></i></a>
+					</div>
+
+				</div>
+
+				<div class="clear"></div>
+			</div>
+		</footer>
+
+		<footer class="footer2">
+			<div class="container"></div>
+			<p>Todos os direitos reservados!</p>
+			<div class="clear"></div>
+		</footer>
+
+	</section>
+
+	<!-- -----------FOOTER - THE END------------- -->
+
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+	<script src="js/homeBar.js"></script>
+	<script src="js/index.js"></script>
+
+	
+</body>
+
+</html>

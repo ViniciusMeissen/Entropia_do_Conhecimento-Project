@@ -1,0 +1,101 @@
+/*-----------------ENTRE EM CONTATO-------------------*/
+h2.entreemcontato{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: 2px solid #BD0000;
+	text-transform: uppercase;
+	font-weight: lighter;
+ 	font-size: 30px;
+ 	color: white;
+}
+
+section.contato{
+	margin: 20px 0 50px 0;
+}
+
+.form-group label{
+	display: block;
+	margin: 5px 0;
+	color: #646464;
+}
+.form-group input[type=text]{
+	width: 100%;
+	padding-left: 8px;
+	height: 40px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+	border: 3px solid #FF0000;
+	outline: 0;
+}
+
+.form-group input[type=email]{
+	width: 100%;
+	margin-top: 5px;
+	padding-left: 8px;
+	height: 40px;
+	border: 3px solid #FF0000;
+	outline: 0;
+}
+
+.form-group textarea{
+	width: 100%;
+	margin-top: 5px;
+	height: 120px;
+	border: 3px solid #FF0000;
+	padding: 10px;
+	resize: vertical;
+	outline: 0;
+}
+
+.form-group input[type=submit]{
+	width: 140px;
+	height: 40px;
+	background: #BD0000;
+	color: white;
+	border: 0;
+	margin-top: 10px;
+	cursor: pointer;
+	outline: 0;
+}
+
+.form-group span{
+	display: inline-block;
+	font-weight: lighter;
+	color: #dcdcdc;
+	letter-spacing: 2px;
+}
+
+.box-sucesso{
+	display: none;
+	font-size: 20px;
+	width: 100%;
+	padding: 10px;
+	background: #ff0d0d;
+	border: 2px solid #225fff;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	margin: 10px 0;
+	letter-spacing: 2px;
+}
+
+/*-----------------ENTRE EM CONTATO - THE END-------------------*/
+
+
+/*---------------------MOBILE REENDINIZATION--------------------*/
+
+@media screen and (max-width: 500px){
+	.w50{
+		width: 100%;
+	}
+
+	nav.menu-desktop{
+		display: none;
+	}
+
+	nav.menu-mobile{
+		display: block;
+	}
+}
+
+/*--------------MOBILE REENDINIZATION - THE END-----------------*/

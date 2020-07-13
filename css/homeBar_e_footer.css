@@ -1,0 +1,368 @@
+
+/*------------------HOME BAR-----------------*/
+.homebar{
+	width: 100%;
+	height: 54px;
+	background: #000004;
+	border-bottom: 2px solid #5C0000;
+	z-index: 5;
+}
+
+.logo h2 > a{
+	float: left;
+	padding: 9px 0; 
+	color: white;
+	font-weight: normal;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+/*----------MOBILE MENU - THE END-----------*/
+
+nav.menu-mobile h2{
+	display: none;
+	float: right;
+	cursor: pointer;
+	margin: 12px;
+}
+
+nav.menu-mobile ul{
+	display: none;
+	width: 90%;
+	background: black;
+	position: absolute;
+	top: 53px;
+	left: calc(50% - 45%);
+	z-index: 4;
+	text-align: center;
+}
+
+nav.menu-mobile li{
+	padding: 8px 0;
+	border: 2px solid #810000;
+	border-bottom: none;
+}
+
+nav.menu-mobile > ul > li.list__slides{
+	display: none;
+}
+
+nav.menu-mobile > ul > li.list_show{
+	width: 100%;
+	height: 48px;
+	z-index:7;
+	background: rgba(225,225,225, 0);
+	position: absolute;
+}
+
+nav.menu-mobile > ul > li.list__slides{
+	display: none;
+}
+
+nav.menu-mobile > ul > li.list__videos{
+	display: none;
+}
+
+nav.menu-mobile > ul > li.item3 > h4 > i.open{
+	display: block;
+}
+
+nav.menu-mobile > ul > li.item4 > h4 > i.open{
+	display: block;
+}
+
+nav.menu-mobile li.list h4 > i.fa-times{
+	color: red;
+	position: relative;
+	top: -7px;
+}
+
+nav.menu-mobile li.item3 h4 > i.fa-times{
+	display: none;
+}
+
+nav.menu-mobile li.item4 h4 > i.fa-times{
+	display: none;
+}
+
+nav.menu-mobile > ul > li.list{
+	height: 45px;
+}
+nav.menu-mobile > ul > li.item4{
+	height: 47px;
+}
+
+nav.menu-mobile > ul > li.list_slide_show{
+	display: none;
+}
+
+ul > li.list_slide_show a, ul > li.list_video_show a{
+	color: var(--color-6);
+}
+
+nav.menu-mobile > ul > li.list_video_show{
+	display: none;
+}
+
+nav.menu-mobile > ul > li.list > h4 > i.open{
+	color: red;
+	position: relative;
+	top: -8px;
+}
+
+nav.menu-mobile > ul > li.u:hover{
+	text-decoration: underline;
+}
+
+.menu-mobile li.item1_1, .menu-mobile li.item2_1, .menu-mobile li.item3_1, .menu-mobile li.item4_1{
+	border: 2px solid var(--color-6);
+	border-top: 2px solid var(--color-6);
+}
+
+.menu-mobile li.item1_1{
+	border-top: 3px solid var(--color-6);
+}
+
+.menu-mobile li.item4_1{
+	border-bottom: 3px solid var(--color-6);
+}
+
+.menu-mobile li.item1_2, .menu-mobile li.item2_2, .menu-mobile li.item3_2, .menu-mobile li.item4_2{
+	border: 2px solid var(--color-6);
+	border-top: 2px solid var(--color-6);
+}
+
+.menu-mobile li.item1_2{
+	border-top: 3px solid var(--color-6);
+}
+
+nav.menu-mobile li.item4{
+	border-bottom: 2px solid #810000;
+}
+
+nav.menu-mobile li.item4_2{
+	border-bottom: 3px solid var(--color-6);
+}
+
+nav.menu-mobile li.selected a, nav.menu-mobile li.selected h4{
+	text-decoration: underline;
+	color: #ff3b3b;
+}
+
+nav.menu-mobile a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+nav.menu-mobile .list h4{
+	font-weight: lighter;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/*----------MOBILE MENU - THE END-----------*/
+
+/*----------MENU DESKTOP------------*/
+
+nav.menu-list-materias a:hover{
+	text-decoration: underline;
+}
+
+nav.menu-list-materias{
+	float: right;
+}
+
+nav.menu-list-materias ul{
+	width: 30%;
+	background: black;
+	position: absolute;
+	right: 0;
+	top: 54px;
+	z-index: 5;
+	text-align: center;
+}
+
+nav.menu-list-materias li{
+	font-weight: lighter;
+	padding: 8px 0;
+	border: 2px solid #BD0000;
+	border-bottom: 0;
+}
+
+nav.menu-list-materias li.item4{
+	border-bottom: 2px solid #BD0000;
+}
+
+nav.menu-list-materias li.item4_1{
+	border-bottom: 2px solid #BD0000;
+}
+
+nav.menu-list-materias a{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+nav.slides_view ul{
+	display: none;
+}
+
+nav.videos_view ul{
+	display: none;
+}
+
+ul.menu__list{
+	list-style-type: none;
+}
+
+/*-------------*/
+
+nav.menu-desktop li.list h4{
+	font-weight: lighter;
+	font-size: 16px;
+	cursor: pointer;
+	padding-right: 10px;
+}
+
+nav.menu-desktop li.list h4 > i{
+	padding-left:5px;
+}
+
+nav.menu-desktop li.item3 h4 > i.fa-times, nav.menu-desktop li.item4 h4 > i.fa-times{
+	display: none;
+	color: white;
+	position: absolute;
+}
+
+nav.menu-desktop li.item3 h4 > i.fa-chevron-down, nav.menu-desktop li.item4 h4 > i.fa-chevron-down{
+	color: white;
+	position: absolute;
+}
+
+nav.menu-desktop li.selected a, nav.menu-desktop li.selected h4{
+	text-decoration: underline;
+	font-weight: normal;
+	color: #ff3b3b;
+}
+
+nav.menu-list-materias > ul > li.selected a{
+	color: #ff3b3b;
+}
+
+nav.menu-desktop{
+	float: right;
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	top: 16px;
+}
+
+nav.menu-desktop > ul > li.list > div{
+	width: 55px;
+	height: 25px;
+	z-index:8;
+	background: rgba(225,225,225, 0);
+	position: absolute;
+	display: none;
+}
+
+nav.menu-desktop li{
+	padding: 0 8px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+nav.menu-desktop a{
+	color: white;
+	text-decoration: none;
+}
+
+nav.menu-desktop ul > li:hover{
+	text-decoration: underline;
+}
+
+/*----------MENU DESKTOP - THE END------------*/
+
+/*-----------------THE END - HOME BAR-----------------*/
+
+/*-----------------------------FOOTER---------------------------*/
+
+
+
+footer.footer1{
+	text-align: center;
+	background: #FF0000;
+	padding: 20px 0;
+	color: white;
+}
+
+footer.footer1 h2{
+	color: white;
+	font-weight: normal;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+footer.footer1 p{
+	margin-top: 8px;
+	font-weight: lighter;
+}
+
+footer.footer1 a{
+	display: block;
+	color: white;
+}
+
+div.group-icons a{
+	display: inline-block;
+	margin: 10px 10px;
+}
+
+.size_icons{
+	font-size: 30px;
+}
+
+footer.footer2{
+	
+	padding: 5px 0;
+	width: 100%;
+	font-weight: lighter;
+	font-size: 20px;
+	background: #BD0000;
+	text-align: center;
+	color: white;
+}
+
+/*---------------------FOOTER - THE END--------------------*/
+
+
+@media screen and (max-width: 768px){
+	footer.footer1{
+		text-align: center;
+	}
+
+	.w50, .w33{ 
+		 width: 100%; 
+		 margin-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	section.footer{
+		position: relative;
+		top: 5%;
+	}
+
+	nav.menu-desktop{
+		display: none;
+	}
+
+	nav.menu-mobile h2{
+		display: block;
+	}
+
+}
